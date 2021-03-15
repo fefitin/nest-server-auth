@@ -30,7 +30,8 @@ export class AppModule {
   configure(consumer: MiddlewareConsumer) {
     consumer
       .apply(AuthCookieToHeaderMiddleware)
-      .exclude('auth/(.*)')
+      .exclude('auth/login')
+      .exclude('auth/refresh_token')
       .forRoutes('*');
   }
 }
