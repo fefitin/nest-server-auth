@@ -62,7 +62,7 @@
     "jest": "26.0.1",
     "prettier": "^1.19.1",
     "run-script-webpack-plugin": "0.0.10",
-    "sequelize-typescript": "^2.1.0",
+    "sequelize-typescript": "^1.1.0",
     "supertest": "^4.0.2",
     "ts-jest": "26.1.0",
     "ts-loader": "^6.2.1",
